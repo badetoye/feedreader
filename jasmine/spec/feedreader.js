@@ -95,8 +95,20 @@ $(function () {
         });
 
         it('completes its works', function () {
-            const feed = document.querySelector('.feed');
-            expect(feed.children.length > 0).toBe(true);
+          /**
+           * I used the parents-child relationship
+           * to rewrite the test. E.g:
+           * expect($('.parent .child'))
+           *      To
+           * expect($('.feed .entry'))
+           *
+           * This was implemented according
+           * to the udacity review I got
+           * on this project.
+           *
+           * Note: All the tests pass on my browser
+           */
+          expect($('.feed .entry').length > 0).toBe(true);
         });
     });
 
