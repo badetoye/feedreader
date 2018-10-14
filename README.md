@@ -52,5 +52,7 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 ## How To Run the Project
 
 > Clone or download zip folder from GitHub.
+
 > Navigate to the content of the (feedreader) folder.
+
 > Locate and open the **_index.html_** in the project's root directory (feedreader) on your browser to run it.
