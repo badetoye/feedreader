@@ -4,9 +4,6 @@
 
 In this project we were given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where I come in.
 
-## How To Run the Project
-
-Open the *index.html* in the project's root directory (feedreader) on your browser to run it.
 
 ## Why this Project?
 
@@ -51,3 +48,9 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass.
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+
+## How To Run the Project
+
+> Clone or download zip folder from GitHub.
+> Navigate to the content of the (feedreader) folder.
+> Locate and open the **_index.html_** in the project's root directory (feedreader) on your browser to run it.
